@@ -24,7 +24,7 @@ body {
     background-color: #ffffff;
     font-family: 'Roboto';
     font-size: 14px;
-    line-height: 1.71;
+    
 }
 
 .logo-accent {
@@ -98,6 +98,8 @@ body {
 
 .footer-contact-info {
     color: var(--footer-contact-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     font-style: normal;
 }
 
@@ -109,6 +111,8 @@ body {
 
 .footer-adress {
     color: var(--secondary-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     font-style: normal;
 }
 
@@ -142,6 +146,7 @@ body {
 }
 
 .features-title {
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--section-color);
